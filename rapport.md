@@ -111,4 +111,4 @@ Ce projet nous a permis de :
 ---
 
 **Fichiers HTML générés** disponibles dans le dossier `/charts`.  
-**Captures d’écran** stockées dans `/images`.
+**Captures d’écran** stockées dans `/cptr`.
