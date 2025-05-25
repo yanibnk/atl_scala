@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div id="chart" style="width:1000px;height:600px;"></div>
+  <script>
+    
+var data = [{
+  x: ["Livres", "High-tech", "Beaut\u00E9", "Maison", "Mode", "Sport"],
+  y: [3.006743761412051, 3.0064307517826334, 3.0017177973483014, 3.000948801226143, 2.9993592456023697, 2.9990043106065207],
+  type: 'bar'
+}];
+         
+    var layout = { title: 'Score moyen par cat\u00E9gorie' };
+    Plotly.newPlot('chart', data, layout);
+  </script>
+</body>
+</html>

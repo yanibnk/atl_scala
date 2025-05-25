@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div id="chart" style="width:1000px;height:600px;"></div>
+  <script>
+    
+var data = [{
+  labels: ["France", "Maroc", "Belgique", "Suisse", "Tunisie", "Canada"],
+  values: [297479.0, 49281.0, 49236.0, 49096.0, 24973.0, 24911.0],
+  type: 'pie'
+}];
+         
+    var layout = { title: 'Sessions par pays' };
+    Plotly.newPlot('chart', data, layout);
+  </script>
+</body>
+</html>

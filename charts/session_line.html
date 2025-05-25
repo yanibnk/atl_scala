@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <div id="chart" style="width:1000px;height:600px;"></div>
+  <script>
+    
+var data = [{
+  x: ["Mode", "Maison", "Beaut\u00E9", "Sport", "High-tech", "Livres"],
+  y: [10.27426706159705, 10.252563587928329, 10.222418465111778, 10.17416064598385, 10.132910246974651, 10.115690809494826],
+  type: 'scatter',
+  mode: 'lines+markers'
+}];
+         
+    var layout = { title: 'Dur\u00E9e moyenne de session par cat\u00E9gorie' };
+    Plotly.newPlot('chart', data, layout);
+  </script>
+</body>
+</html>
