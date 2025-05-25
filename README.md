@@ -30,6 +30,7 @@ Ce projet a pour objectif d’analyser un ensemble de données e-commerce enrich
 │   ├── sessions_pie.html           
 │   └── session_line.html 
 ├── README.md                       # Ce fichier
+├── rapport.md                      #Le rapport du travail realisé
 └── build.sbt                       # Fichier SBT avec dépendances
 ```
 
